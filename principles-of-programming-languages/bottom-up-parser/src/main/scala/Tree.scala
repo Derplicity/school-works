@@ -1,11 +1,16 @@
-/*
- * CS3210 - Principles of Programming Languages - Fall 2020
- * Instructor: Thyago Mota
- * Description: Activity 09 - Tree
- */
-
 import scala.collection.mutable.ArrayBuffer
 
+/**
+  * Project: Programming Assignment 1
+  * Author: Michael Kerl
+  * Version: 1.0
+  */
+
+/**
+  * A Tree is a multidimensional struction which contains branches and leaves.
+  *
+  * @param label for tree/branch
+  */
 class Tree(var label: String) {
 
   private val branches: ArrayBuffer[Tree] = new ArrayBuffer[Tree]

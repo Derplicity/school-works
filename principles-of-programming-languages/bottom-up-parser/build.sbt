@@ -12,7 +12,7 @@ scalaVersion := "2.13.1"
 
 // It's possible to define many kinds of settings, such as:
 
-name := "activity_09_bottom_up_parser"
+name := "programming-assignment-1"
 organization := "ch.epfl.scala"
 version := "1.0"
 

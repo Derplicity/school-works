@@ -1,15 +1,22 @@
 import scala.collection.mutable.ArrayBuffer
 import scala.io.Source
 
-/*
- * CS3210 - Principles of Programming Languages - Fall 2020
- * Instructor: Thyago Mota
- * Description: Activity 09 - Grammar
- */
+/**
+  * Project: Programming Assignment 1
+  * Author: Michael Kerl
+  * Version: 1.0
+  */
 
+/**
+  * A Grammar consists of an array of productions, which are given via an input file of productions.
+  * A Grammar's productions are interactable via methods.
+  *
+  * @param source file
+  */
 class Grammar(private var source: String) {
 
   private var productions = new ArrayBuffer[String]
+
   for (line <- Source.fromFile(source).getLines)
     productions += line
 

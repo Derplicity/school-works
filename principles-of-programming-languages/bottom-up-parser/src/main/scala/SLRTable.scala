@@ -1,15 +1,23 @@
 import scala.io.Source
 
-/*
- * CS3210 - Principles of Programming Languages - Fall 2020
- * Instructor: Thyago Mota
- * Description: Activity 09 - SLR Table
- */
+/**
+  * Project: Programming Assignment 1
+  * Author: Michael Kerl
+  * Version: 1.0
+  */
 
+/**
+  * A slr table contains information related to the shift and reduce operations for a list of
+  * productions.
+  *
+  * @param source file
+  */
 class SLRTable(private var source: String) {
 
-  private val actions: scala.collection.mutable.Map[(Int, Int), String] =  scala.collection.mutable.Map()
-  private val gotos: scala.collection.mutable.Map[(Int, String), String] =  scala.collection.mutable.Map()
+  private val actions: scala.collection.mutable.Map[(Int, Int), String] =
+    scala.collection.mutable.Map()
+  private val gotos: scala.collection.mutable.Map[(Int, String), String] =
+    scala.collection.mutable.Map()
 
   val input = Source.fromFile(source).getLines()
   val header = input.next().split(",")

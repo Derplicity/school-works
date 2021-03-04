@@ -1,17 +1,20 @@
-/*
- * CS3210 - Principles of Programming Languages - Fall 2020
- * Instructor: Thyago Mota
- * Description: Activity 09 - CharClass
- */
+/**
+  * Project: Programming Assignment 1
+  * Author: Michael Kerl
+  * Version: 1.0
+  */
 
+/**
+  * The CharClass enumeration contains all of the subcategories for characters.
+  */
 object CharClass extends Enumeration {
-  val EOF        = Value
-  val LETTER     = Value
-  val DIGIT      = Value
-  val OPERATOR   = Value
+  val EOF = Value
+  val LETTER = Value
+  val DIGIT = Value
+  val OPERATOR = Value
+  val COMPARATOR = Value
+  val DECLARATOR = Value
   val PUNCTUATOR = Value
-  val DELIMITER  = Value
-  val QUOTE      = Value
-  val BLANK      = Value
-  val OTHER      = Value
+  val BLANK = Value
+  val OTHER = Value
 }
