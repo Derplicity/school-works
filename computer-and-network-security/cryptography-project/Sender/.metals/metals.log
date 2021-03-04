@@ -1,9 +1,0 @@
-2020.10.10 18:38:52 INFO  started: Metals version 0.9.4 in workspace '/Users/derp/projects/school/cns/Prj01/Sender' for client vscode.
-2020.10.10 18:38:52 INFO  time: initialize in 0.49s
-2020.10.10 18:38:53 WARN  no build tool detected in workspace '/Users/derp/projects/school/cns/Prj01/Sender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2020.10.10 18:39:38 INFO  
-2020.10.10 18:39:38 INFO  Template applied in /Users/derp/projects/school/ppl/./programming-assignment-2
-2020.10.10 18:39:38 INFO  
-2020.10.10 18:39:38 INFO  build tool exit: 0
-2020.10.10 18:39:38 INFO  time: ran 'giter8.Giter8' in 2.74s
-2020.10.10 18:39:42 INFO  shutting down Metals
