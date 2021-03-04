@@ -58,6 +58,10 @@ A compilation of many of the programming assignments I completed during my degre
 
 - `syntax-analyzer`: Uses the lexeme units generated from the lexical analyzer to determine whether a given file has valid syntax according to the defined grammar.
 
+- `guessing-game.pl`: An [Expert System](https://en.wikipedia.org/wiki/Expert_system) which guesses a users favorite video game.
+
+- `pub-sub.go`: Creates _Publishers_ which send out topic messages and creates _Subscribers_ which listen for messages sent by the _Publishers_ they are subscribed to.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
