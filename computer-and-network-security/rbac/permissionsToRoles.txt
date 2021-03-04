@@ -1,0 +1,2 @@
+R6	write*	F3
+R2	seek	D1
